@@ -13,7 +13,7 @@ function fib(n){
     fib1 = fib2
     fib2 = sum
   }
-  return sum
+     return sum
 }
 
 console.log(fib(1000), performance.now().toFixed(2))
